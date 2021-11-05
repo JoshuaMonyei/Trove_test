@@ -105,6 +105,6 @@ This plugin uses Commitlint to ensure commits messages follow a particular conve
 
 If you have any questions, feel free to contact:
 
- - Owner: [Josh](https://github.com/JoshuaMonyei)
+ - Owner : [Josh](https://github.com/JoshuaMonyei)
   (Email: monyeijosh01@gmail.com)
 ```
