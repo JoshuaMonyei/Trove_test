@@ -28,9 +28,8 @@ up skills on the fly.
 ```
 npm run dev   or   yarn run dev
 ```
-
+```
 Open http://127.0.0.1:5050/
-
 ```
 
 ## Local Development
@@ -102,7 +101,5 @@ This plugin uses Commitlint to ensure commits messages follow a particular conve
 | 'yarn' is not recognized as an internal or external command, operable program or batch file.                                       | yarn is not installed. | Install yarn. See guide [here.](#setting-up-for-windowslinuxmac) |
 
 ### Contact
-
-```
 If you have any questions, feel free to contact:
 - Owner : [Josh](https://github.com/JoshuaMonyei)
