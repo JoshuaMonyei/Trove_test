@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Update User Details</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" href="/css/updateProfile.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Update Profile</div>
+      <div class="content">
+        <form action="/updateProfile" method="post">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Enter your name" />
+            </div>
+            <div class="input-box">
+              <span class="details"> Date of Birth</span>
+              <input
+                type="date"
+                name="dateOfBirth"
+                placeholder="Date of Birth"
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Bank Name</span>
+              <!-- <input type="text" placeholder="" required /> -->
+              <label for="bank">Choose a Bank:</label>
+              <select name="bank" id="bank">
+                <option value="Access Bank" selected>Access Bank</option>
+                <option value="GTBank" selected>GT Bank</option>
+                <option value="FirstBank" selected>First Bank</option>
+                <option value="Zenith Bank" selected>Zenith Bank</option>
+                <option value="" selected>Select a Bank</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <span class="details">Account Number</span>
+              <input
+                type="number"
+                name="accountNumber"
+                placeholder="Enter Account Number"
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input
+                type="number"
+                name="phoneNumber"
+                placeholder="Enter your number"
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Employer</span>
+              <input
+                type="text"
+                name="employer"
+                placeholder="Name of employer"
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Current Job role</span>
+              <input type="text" name="jobRole" placeholder="Job function" />
+            </div>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="Male" id="dot-1" />
+            <input type="radio" name="Female" id="dot-2" />
+            <input type="radio" name="Prefer not to say" id="dot-3" />
+            <span class="gender-title">Gender</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+          </div>
+          <!-- <div class="employment-details">
+                <input type="radio" name="employmentStatus" id="dot-3" />
+                <input type="radio" name="employmentStatus" id="dot-4" />
+                <input type="radio" name="employmentStatus" id="dot-6" />
+                <span class="employment-title">Employment Status</span>
+                <div class="category1">
+                    <label for="dot-4">
+                    <span class="dot four"></span>
+                    <span class="employmentStatus">Employed</span>
+                    </label>
+                    <label for="dot-5">
+                    <span class="dot five"></span>
+                    <span class="employmentStatus">Unemployed</span>
+                    </label>
+                    <label for="dot-6">
+                    <span class="dot six"></span>
+                    <span class="employmentStatus">Self-Employed</span>
+                    </label>
+                </div>
+                </div> -->
+          <div class="button">
+            <input type="submit" value="Update Profile" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
