@@ -43,7 +43,7 @@ For the backend part of this project, the Google code style is used with some mi
 ### Commit Guide
 
 This plugin uses Commitlint to ensure commits messages follow a particular convention using the conventional config. If you're totally new to this convention, that's totally fine.
-
+```
 > _Commit CheatSheet_
 | Type     |                          | Description                                                                                                 |
 | -------- | ------------------------ | ----------------------------------------------------------------------------------------------------------- |
@@ -58,6 +58,7 @@ This plugin uses Commitlint to ensure commits messages follow a particular conve
 | ci       | Continuous Integrations  | Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs) |
 | chore    | Chores                   | Other changes that don't modify backend, frontend or test files                                             |
 | revert   | Reverts                  | Reverts a previous commit                                                                                   |
+```
 
 
 ### Setting Up for Windows/Linux/Mac
